@@ -1,3 +1,7 @@
-<view>
-  <text>你好，北京</text>
+<view class='container'>
+  <image class='user-avatar' src='/images/0.jpeg'></image>
+  <text class='user-name'>Hello，David Sino</text>
+  <view class='moto-container'>
+    <text class='moto'>开启小程序快乐之旅</text>
+  </view>
 </view>

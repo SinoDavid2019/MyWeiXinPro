@@ -1,0 +1,7 @@
+<view>
+  <swiper indicator-dots='true' indicator-color='rgba(255,25,36,0.5)'>
+    <swiper-item><image src='/images/0.jpeg' ></image></swiper-item>
+    <swiper-item><image src='/images/0.jpeg'></image></swiper-item>
+    <swiper-item><image src='/images/0.jpeg'></image></swiper-item>
+  </swiper>
+</view>
