@@ -2,6 +2,6 @@
   <image class='user-avatar' src='/images/0.jpeg'></image>
   <text class='user-name'>Hello，David Sino WHL</text>
   <view class='moto-container'>
-    <text class='moto'>开启小程序之旅dsd</text>
+    <text class='moto'>开启小程序之旅</text>
   </view>
 </view>

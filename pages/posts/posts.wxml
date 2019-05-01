@@ -1,7 +1,28 @@
 <view>
-  <swiper indicator-dots='true' indicator-color='rgba(255,25,36,0.5)'>
-    <swiper-item><image src='/images/0.jpeg' ></image></swiper-item>
-    <swiper-item><image src='/images/0.jpeg'></image></swiper-item>
-    <swiper-item><image src='/images/0.jpeg'></image></swiper-item>
+  <swiper indicator-dots='true' indicator-color='rgba(122,25,36,.5)' autoplay='true' interval='5000'>
+    <swiper-item>
+      <image src='/images/wx.png'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='/images/vr.png'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='/images/iqiyi.png'></image>
+    </swiper-item>
   </swiper>
+  <view class='post-container'> 
+    <view class='post-author-date'>
+      <image class='post-author' src='/images/avatar/1.png'></image>
+      <text class='post-date'>Sep 18 2019</text>
+    </view>
+    <text class='post-title'>正是青春年少时</text>
+    <image class='post-image' src='/images/post/crab.png'></image>
+    <text class='post-content'>诗人先写环境。首句中“寥落”已点出行宫的空虚冷落，又着一“古”字，更显其破旧之象。这样的环境本身就暗示着昔盛今衰的变迁。而后以“宫花寂寞红”续接，此处可见运思缜密。娇艳红花与古旧行宫相映衬，更见行宫“寥落”，加强了时移世迁的盛衰之感。两句景语，令人心无旁鹜，只有沉沉的感伤。</text>
+    <view class='post-like'>
+      <image class='post-like-icon' src='../../images/icon/chat.png'></image>
+      <text class='post-like-font'>55</text>
+      <image class='post-like-icon' src='../../images/icon/view.png'></image>
+      <text class='post-like-font'>223</text>
+    </view>
+  </view>
 </view>
