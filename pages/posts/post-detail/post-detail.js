@@ -1,10 +1,5 @@
+var postsData = require('../../../data/posts-data.js')
 Page({
-
-  onTap:function(){
-    wx.redirectTo({
-      url: '../posts/posts',
-    })
-  },
 
   /**
    * 页面的初始数据
@@ -17,7 +12,12 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    
+    var postID=options.id;
+    var postDatas = postsData.postList[postID];
+    this.setData({
+      postDetails:postDatas
+    });
+    wx.setStorageSync("112", "dhjshdkjhaskjdhjkasdhjkhkjhdjs")
   },
 
   /**
